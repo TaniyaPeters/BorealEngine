@@ -1,17 +1,54 @@
 \hypertarget{class_boreal_1_1_index_buffer}{}\doxysection{Boreal\+::Index\+Buffer Class Reference}
 \label{class_boreal_1_1_index_buffer}\index{Boreal::IndexBuffer@{Boreal::IndexBuffer}}
+
+
+Allows user to create and manage index buffers.  
+
+
+
+
+{\ttfamily \#include $<$Index\+Buffer.\+h$>$}
+
 \doxysubsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\Hypertarget{class_boreal_1_1_index_buffer_aa568ded2a79c3c860edab1c40b576404}\label{class_boreal_1_1_index_buffer_aa568ded2a79c3c860edab1c40b576404}} 
-{\bfseries Index\+Buffer} (unsigned int $\ast$indexes, unsigned int index\+Count)
-\item 
+\mbox{\hyperlink{class_boreal_1_1_index_buffer_aa568ded2a79c3c860edab1c40b576404}{Index\+Buffer}} (unsigned int $\ast$indexes, unsigned int index\+Count)
+\begin{DoxyCompactList}\small\item\em Constructor that initializes the index buffer with a pointer to an array of indexes and the count of indexes in the array. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_boreal_1_1_index_buffer_a0c4666446a502218941e14f648bd0a91}\label{class_boreal_1_1_index_buffer_a0c4666446a502218941e14f648bd0a91}} 
+\mbox{\hyperlink{class_boreal_1_1_index_buffer_a0c4666446a502218941e14f648bd0a91}{$\sim$\+Index\+Buffer}} ()
+\begin{DoxyCompactList}\small\item\em Destructor that deletes the index buffer. \end{DoxyCompactList}\item 
 \mbox{\Hypertarget{class_boreal_1_1_index_buffer_ae18c3535546015e3f358ef72ee0fc2d6}\label{class_boreal_1_1_index_buffer_ae18c3535546015e3f358ef72ee0fc2d6}} 
-void {\bfseries Bind} ()
-\item 
+void \mbox{\hyperlink{class_boreal_1_1_index_buffer_ae18c3535546015e3f358ef72ee0fc2d6}{Bind}} ()
+\begin{DoxyCompactList}\small\item\em Bind function binds the index buffer to the current context. \end{DoxyCompactList}\item 
 \mbox{\Hypertarget{class_boreal_1_1_index_buffer_ae90daed3b4585af83d1b9565687b60bf}\label{class_boreal_1_1_index_buffer_ae90daed3b4585af83d1b9565687b60bf}} 
-void {\bfseries Un\+Bind} ()
-\end{DoxyCompactItemize}
+void \mbox{\hyperlink{class_boreal_1_1_index_buffer_ae90daed3b4585af83d1b9565687b60bf}{Un\+Bind}} ()
+\begin{DoxyCompactList}\small\item\em Un\+Bind function unbinds the index buffer from the current context. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Allows user to create and manage index buffers. 
+
+\hypertarget{class_boreal_1_1_window_Description}{}\doxysubsection{Description}\label{class_boreal_1_1_window_Description}
+The index buffer class allows the user to create, bind, and unbind index buffers. This is used to create models along with the vertex buffer. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_boreal_1_1_index_buffer_aa568ded2a79c3c860edab1c40b576404}\label{class_boreal_1_1_index_buffer_aa568ded2a79c3c860edab1c40b576404}} 
+\index{Boreal::IndexBuffer@{Boreal::IndexBuffer}!IndexBuffer@{IndexBuffer}}
+\index{IndexBuffer@{IndexBuffer}!Boreal::IndexBuffer@{Boreal::IndexBuffer}}
+\doxysubsubsection{\texorpdfstring{IndexBuffer()}{IndexBuffer()}}
+{\footnotesize\ttfamily Boreal\+::\+Index\+Buffer\+::\+Index\+Buffer (\begin{DoxyParamCaption}\item[{unsigned int $\ast$}]{indexes,  }\item[{unsigned int}]{index\+Count }\end{DoxyParamCaption})}
+
+
+
+Constructor that initializes the index buffer with a pointer to an array of indexes and the count of indexes in the array. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em indexes} & A pointer to an array of indexes \\
+\hline
+\mbox{\texttt{ in}}  & {\em index\+Count} & The number of indexes in the array pointed to by the indexes parameter \\
+\hline
+\end{DoxyParams}
 
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}

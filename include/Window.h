@@ -10,7 +10,7 @@ namespace Boreal {
 	/**
 	* @brief Allows user to create and manage windows.
 	* 
-	* @section DESCRIPTION
+	* @section Description
 	* 
 	* The window class is used to create and manage windows.
 	* It allows the user to do the following:
@@ -35,10 +35,10 @@ namespace Boreal {
 		/**
 		* @brief Constructor that initalizes a window with the given width, height, title, and a boolean for fullscreen.
 		* 
-		* @param [in] width is the width of the window in pixels
-		* @param [in] height is the height of the window in pixels
-		* @param [in] title is the title of the window
-		* @param [in] isFullscreen is a boolean that determines if the window is initialized to fullscreen or not
+		* @param [in] width The width of the window in pixels
+		* @param [in] height The height of the window in pixels
+		* @param [in] title The title of the window
+		* @param [in] isFullscreen A boolean that determines if the window is initialized to fullscreen or not
 		*/
 		Window(int width, int height, std::string title, bool isFullscreen = false);
 
@@ -113,28 +113,28 @@ namespace Boreal {
 		/**
 		* @brief Setter for the width of the window
 		*
-		* @param [in] width is the width of the window in pixels
+		* @param [in] width The width of the window in pixels
 		*/
 		void SetWidth(int width) { m_Width = width; glfwSetWindowSize(m_Window, m_Width, m_Height); }
 
 		/**
 		* @brief Setter for the height of the window
 		*
-		* @param [in] height is the height of the window in pixels
+		* @param [in] height The height of the window in pixels
 		*/
 		void SetHeight(int height) { m_Height = height; glfwSetWindowSize(m_Window, m_Width, m_Height); }
 
 		/**
 		* @brief Setter for the is fullscreen flag
 		*
-		* @param [in] isFullscreen is the value of the fullscreen flag as a boolean
+		* @param [in] isFullscreen The value of the fullscreen flag as a boolean
 		*/
 		void SetIsFullscreen(bool isFullscreen);
 
 		/**
 		* @brief Setter for the title of the window
 		*
-		* @param [in] title is the title of the window as an std::string
+		* @param [in] title The title of the window as an std::string
 		*/
 		void SetTitle(std::string title) { m_Title = title; glfwSetWindowTitle(m_Window, m_Title.c_str()); }
 	};

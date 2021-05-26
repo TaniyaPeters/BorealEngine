@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['_7ewindow_64',['~Window',['../class_boreal_1_1_window.html#a717e853a2a230213f8aa3eeda327730b',1,'Boreal::Window']]]
+  ['vertexbuffer_70',['VertexBuffer',['../class_boreal_1_1_vertex_buffer.html#acc8590054df9888c3459e9d669965623',1,'Boreal::VertexBuffer']]]
 ];

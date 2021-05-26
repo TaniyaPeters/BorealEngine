@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['boreal_47',['Boreal',['../namespace_boreal.html',1,'']]]
+  ['boreal_51',['Boreal',['../namespace_boreal.html',1,'']]]
 ];

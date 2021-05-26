@@ -1,17 +1,54 @@
 \hypertarget{class_boreal_1_1_vertex_buffer}{}\doxysection{Boreal\+::Vertex\+Buffer Class Reference}
 \label{class_boreal_1_1_vertex_buffer}\index{Boreal::VertexBuffer@{Boreal::VertexBuffer}}
+
+
+Allows user to create and manage vertex buffers.  
+
+
+
+
+{\ttfamily \#include $<$Vertex\+Buffer.\+h$>$}
+
 \doxysubsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\Hypertarget{class_boreal_1_1_vertex_buffer_acc8590054df9888c3459e9d669965623}\label{class_boreal_1_1_vertex_buffer_acc8590054df9888c3459e9d669965623}} 
-{\bfseries Vertex\+Buffer} (\mbox{\hyperlink{struct_boreal_1_1_vertex}{Vertex}} $\ast$vertices, unsigned int vertex\+Count)
-\item 
+\mbox{\hyperlink{class_boreal_1_1_vertex_buffer_acc8590054df9888c3459e9d669965623}{Vertex\+Buffer}} (\mbox{\hyperlink{struct_boreal_1_1_vertex}{Vertex}} $\ast$vertices, unsigned int vertex\+Count)
+\begin{DoxyCompactList}\small\item\em Constructor that initializes the vertex buffer with a pointer to an array of vertices and the count of vertices in the array. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_boreal_1_1_vertex_buffer_ad2121f4c846185038d532d1f69fac219}\label{class_boreal_1_1_vertex_buffer_ad2121f4c846185038d532d1f69fac219}} 
+\mbox{\hyperlink{class_boreal_1_1_vertex_buffer_ad2121f4c846185038d532d1f69fac219}{$\sim$\+Vertex\+Buffer}} ()
+\begin{DoxyCompactList}\small\item\em Destructor that deletes the vertex buffer. \end{DoxyCompactList}\item 
 \mbox{\Hypertarget{class_boreal_1_1_vertex_buffer_adcc9fee37f5b65e62c13db962b3c0498}\label{class_boreal_1_1_vertex_buffer_adcc9fee37f5b65e62c13db962b3c0498}} 
-void {\bfseries Bind} ()
-\item 
+void \mbox{\hyperlink{class_boreal_1_1_vertex_buffer_adcc9fee37f5b65e62c13db962b3c0498}{Bind}} ()
+\begin{DoxyCompactList}\small\item\em Bind function binds the vertex buffer to the current context. \end{DoxyCompactList}\item 
 \mbox{\Hypertarget{class_boreal_1_1_vertex_buffer_a0d10923f5edce269c13721047230ba04}\label{class_boreal_1_1_vertex_buffer_a0d10923f5edce269c13721047230ba04}} 
-void {\bfseries Un\+Bind} ()
-\end{DoxyCompactItemize}
+void \mbox{\hyperlink{class_boreal_1_1_vertex_buffer_a0d10923f5edce269c13721047230ba04}{Un\+Bind}} ()
+\begin{DoxyCompactList}\small\item\em Un\+Bind function unbinds the vertex buffer from the current context. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Allows user to create and manage vertex buffers. 
+
+\hypertarget{class_boreal_1_1_window_Description}{}\doxysubsection{Description}\label{class_boreal_1_1_window_Description}
+The vertex buffer class allows the user to create, bind, and unbind vertex buffers. This is used to create models along with the index buffer. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_boreal_1_1_vertex_buffer_acc8590054df9888c3459e9d669965623}\label{class_boreal_1_1_vertex_buffer_acc8590054df9888c3459e9d669965623}} 
+\index{Boreal::VertexBuffer@{Boreal::VertexBuffer}!VertexBuffer@{VertexBuffer}}
+\index{VertexBuffer@{VertexBuffer}!Boreal::VertexBuffer@{Boreal::VertexBuffer}}
+\doxysubsubsection{\texorpdfstring{VertexBuffer()}{VertexBuffer()}}
+{\footnotesize\ttfamily Boreal\+::\+Vertex\+Buffer\+::\+Vertex\+Buffer (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_boreal_1_1_vertex}{Vertex}} $\ast$}]{vertices,  }\item[{unsigned int}]{vertex\+Count }\end{DoxyParamCaption})}
+
+
+
+Constructor that initializes the vertex buffer with a pointer to an array of vertices and the count of vertices in the array. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em vertices} & A pointer to an array of vertices \\
+\hline
+\mbox{\texttt{ in}}  & {\em vertex\+Count} & The number of vertices in the array pointed to by the vertices parameter \\
+\hline
+\end{DoxyParams}
 
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}

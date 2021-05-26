@@ -131,7 +131,7 @@ namespace Boreal {
 	/**
 	* @brief Allows user to handle user input.
 	*
-	* @section DESCRIPTION
+	* @section Description
 	*
 	* The input class allows the user input to be read
 	* The class consists of static functions only so no instantiation is required

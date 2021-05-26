@@ -75,17 +75,24 @@ $(function() {
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;Vertex.h&quot;</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespace_boreal.html">Boreal</a> {</div>
-<div class="line"><a name="l00005"></a><span class="lineno"><a class="line" href="class_boreal_1_1_vertex_buffer.html">    5</a></span>&#160;    <span class="keyword">class </span><a class="code" href="class_boreal_1_1_vertex_buffer.html">VertexBuffer</a> {</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;        <a class="code" href="class_boreal_1_1_vertex_buffer.html">VertexBuffer</a>(<a class="code" href="struct_boreal_1_1_vertex.html">Vertex</a>* vertices, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> vertexCount);</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        ~<a class="code" href="class_boreal_1_1_vertex_buffer.html">VertexBuffer</a>();</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        <span class="keywordtype">void</span> Bind();</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        <span class="keywordtype">void</span> UnBind();</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> m_VBO;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    };</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;}</div>
-<div class="ttc" id="aclass_boreal_1_1_vertex_buffer_html"><div class="ttname"><a href="class_boreal_1_1_vertex_buffer.html">Boreal::VertexBuffer</a></div><div class="ttdef"><b>Definition:</b> VertexBuffer.h:5</div></div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="class_boreal_1_1_vertex_buffer.html">   13</a></span>&#160;    <span class="keyword">class </span><a class="code" href="class_boreal_1_1_vertex_buffer.html">VertexBuffer</a> {</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <a class="code" href="class_boreal_1_1_vertex_buffer.html#acc8590054df9888c3459e9d669965623">VertexBuffer</a>(<a class="code" href="struct_boreal_1_1_vertex.html">Vertex</a>* vertices, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> vertexCount);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <a class="code" href="class_boreal_1_1_vertex_buffer.html#ad2121f4c846185038d532d1f69fac219">~VertexBuffer</a>();</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_boreal_1_1_vertex_buffer.html#adcc9fee37f5b65e62c13db962b3c0498">Bind</a>();</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_boreal_1_1_vertex_buffer.html#a0d10923f5edce269c13721047230ba04">UnBind</a>();</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> m_VBO;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    };</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;}</div>
+<div class="ttc" id="aclass_boreal_1_1_vertex_buffer_html"><div class="ttname"><a href="class_boreal_1_1_vertex_buffer.html">Boreal::VertexBuffer</a></div><div class="ttdoc">Allows user to create and manage vertex buffers.</div><div class="ttdef"><b>Definition:</b> VertexBuffer.h:13</div></div>
+<div class="ttc" id="aclass_boreal_1_1_vertex_buffer_html_a0d10923f5edce269c13721047230ba04"><div class="ttname"><a href="class_boreal_1_1_vertex_buffer.html#a0d10923f5edce269c13721047230ba04">Boreal::VertexBuffer::UnBind</a></div><div class="ttdeci">void UnBind()</div><div class="ttdoc">UnBind function unbinds the vertex buffer from the current context.</div><div class="ttdef"><b>Definition:</b> VertexBuffer.cpp:22</div></div>
+<div class="ttc" id="aclass_boreal_1_1_vertex_buffer_html_acc8590054df9888c3459e9d669965623"><div class="ttname"><a href="class_boreal_1_1_vertex_buffer.html#acc8590054df9888c3459e9d669965623">Boreal::VertexBuffer::VertexBuffer</a></div><div class="ttdeci">VertexBuffer(Vertex *vertices, unsigned int vertexCount)</div><div class="ttdoc">Constructor that initializes the vertex buffer with a pointer to an array of vertices and the count o...</div><div class="ttdef"><b>Definition:</b> VertexBuffer.cpp:5</div></div>
+<div class="ttc" id="aclass_boreal_1_1_vertex_buffer_html_ad2121f4c846185038d532d1f69fac219"><div class="ttname"><a href="class_boreal_1_1_vertex_buffer.html#ad2121f4c846185038d532d1f69fac219">Boreal::VertexBuffer::~VertexBuffer</a></div><div class="ttdeci">~VertexBuffer()</div><div class="ttdoc">Destructor that deletes the vertex buffer.</div><div class="ttdef"><b>Definition:</b> VertexBuffer.cpp:14</div></div>
+<div class="ttc" id="aclass_boreal_1_1_vertex_buffer_html_adcc9fee37f5b65e62c13db962b3c0498"><div class="ttname"><a href="class_boreal_1_1_vertex_buffer.html#adcc9fee37f5b65e62c13db962b3c0498">Boreal::VertexBuffer::Bind</a></div><div class="ttdeci">void Bind()</div><div class="ttdoc">Bind function binds the vertex buffer to the current context.</div><div class="ttdef"><b>Definition:</b> VertexBuffer.cpp:18</div></div>
 <div class="ttc" id="anamespace_boreal_html"><div class="ttname"><a href="namespace_boreal.html">Boreal</a></div><div class="ttdoc">Namespace for all things related to Boreal Engine.</div><div class="ttdef"><b>Definition:</b> Boreal.h:19</div></div>
 <div class="ttc" id="astruct_boreal_1_1_vertex_html"><div class="ttname"><a href="struct_boreal_1_1_vertex.html">Boreal::Vertex</a></div><div class="ttdoc">Structure that describes the components of a vertex.</div><div class="ttdef"><b>Definition:</b> Vertex.h:8</div></div>
 </div><!-- fragment --></div><!-- contents -->
