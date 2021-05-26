@@ -22,15 +22,15 @@ namespace Boreal {
 	class Window {
 	private:
 		// VARIABLES
-		int m_Width; 
-		int m_Height;
-		bool m_IsFullscreen;
-		std::string m_Title;
-		GLFWwindow* m_Window;
-		GLFWmonitor* m_Monitor;
+		int m_Width;				// Width of window in pixels
+		int m_Height;				// Height of window in pixels
+		bool m_IsFullscreen;		// Flag if fullscreen
+		std::string m_Title;		// Title of window
+		GLFWwindow* m_Window;		// Pointer to window instance
+		GLFWmonitor* m_Monitor;		// Pointer to monitor for fullscreen
 
 		// METHODS
-		void FrameBufferCallback(GLFWwindow* window, int width, int height);
+		void FrameBufferCallback(GLFWwindow* window, int width, int height);	// Callback function for window resize
 	public:
 		/**
 		* @brief Constructor that initalizes a window with the given width, height, title, and a boolean for fullscreen.

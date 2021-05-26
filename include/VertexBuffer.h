@@ -38,6 +38,6 @@ namespace Boreal {
 		*/
 		void UnBind();
 	private:
-		unsigned int m_VBO;
+		unsigned int m_VBO;		// ID of Vertex Buffer Object
 	};
 }

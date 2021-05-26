@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['terminate_67',['Terminate',['../namespace_boreal.html#aba377b3c62314887b728182ed115c7e4',1,'Boreal']]]
+  ['model_77',['Model',['../class_boreal_1_1_model.html#a1da130c3f876ce679481f701322994f7',1,'Boreal::Model']]]
 ];

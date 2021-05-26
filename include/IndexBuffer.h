@@ -37,6 +37,6 @@ namespace Boreal {
 		*/
 		void UnBind();
 	private:
-		unsigned int m_EBO;
+		unsigned int m_EBO;		// ID of Element Buffer Object
 	};
 }

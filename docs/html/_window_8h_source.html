@@ -83,15 +83,15 @@ $(function() {
 <div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="class_boreal_1_1_window.html">   22</a></span>&#160;    <span class="keyword">class </span><a class="code" href="class_boreal_1_1_window.html">Window</a> {</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keyword">private</span>:</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="comment">// VARIABLES</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="keywordtype">int</span> m_Width; </div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keywordtype">int</span> m_Height;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keywordtype">bool</span> m_IsFullscreen;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        std::string m_Title;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        GLFWwindow* m_Window;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        GLFWmonitor* m_Monitor;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="keywordtype">int</span> m_Width;                <span class="comment">// Width of window in pixels</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keywordtype">int</span> m_Height;               <span class="comment">// Height of window in pixels</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keywordtype">bool</span> m_IsFullscreen;        <span class="comment">// Flag if fullscreen</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        std::string m_Title;        <span class="comment">// Title of window</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        GLFWwindow* m_Window;       <span class="comment">// Pointer to window instance</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        GLFWmonitor* m_Monitor;     <span class="comment">// Pointer to monitor for fullscreen</span></div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="comment">// METHODS</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordtype">void</span> FrameBufferCallback(GLFWwindow* window, <span class="keywordtype">int</span> width, <span class="keywordtype">int</span> height);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordtype">void</span> FrameBufferCallback(GLFWwindow* window, <span class="keywordtype">int</span> width, <span class="keywordtype">int</span> height);    <span class="comment">// Callback function for window resize</span></div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <a class="code" href="class_boreal_1_1_window.html#a687a34ce7c9f0ddff6b2a91cddb18022">Window</a>(<span class="keywordtype">int</span> width, <span class="keywordtype">int</span> height, std::string title, <span class="keywordtype">bool</span> isFullscreen = <span class="keyword">false</span>);</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>

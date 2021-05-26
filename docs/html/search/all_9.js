@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['u_28',['u',['../struct_boreal_1_1_vertex.html#a0ccb7d379985b3657b038c630dcb1482',1,'Boreal::Vertex']]],
-  ['unbind_29',['UnBind',['../class_boreal_1_1_index_buffer.html#ae90daed3b4585af83d1b9565687b60bf',1,'Boreal::IndexBuffer::UnBind()'],['../class_boreal_1_1_vertex_buffer.html#a0d10923f5edce269c13721047230ba04',1,'Boreal::VertexBuffer::UnBind()']]],
-  ['update_30',['Update',['../class_boreal_1_1_input.html#ae43c2dab3e9a63c436830e8f3168beed',1,'Boreal::Input::Update()'],['../class_boreal_1_1_window.html#af814a12c11ed79ea6cc05bd6a7034ea7',1,'Boreal::Window::Update()']]]
+  ['terminate_34',['Terminate',['../namespace_boreal.html#aba377b3c62314887b728182ed115c7e4',1,'Boreal']]],
+  ['texture_35',['Texture',['../class_boreal_1_1_texture.html',1,'Boreal']]],
+  ['time_36',['Time',['../class_boreal_1_1_time.html',1,'Boreal']]],
+  ['translate_37',['Translate',['../class_boreal_1_1_model.html#a2afa5b6f9508e72feb654f814ad90b92',1,'Boreal::Model']]]
 ];

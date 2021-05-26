@@ -1,41 +1,222 @@
 \hypertarget{class_boreal_1_1_model}{}\doxysection{Boreal\+::Model Class Reference}
 \label{class_boreal_1_1_model}\index{Boreal::Model@{Boreal::Model}}
+
+
+Allows user to create and manage models.  
+
+
+
+
+{\ttfamily \#include $<$Model.\+h$>$}
+
 \doxysubsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\Hypertarget{class_boreal_1_1_model_a0f6707889495875d796a8de4beca66cd}\label{class_boreal_1_1_model_a0f6707889495875d796a8de4beca66cd}} 
-{\bfseries Model} (\mbox{\hyperlink{struct_boreal_1_1_vertex}{Vertex}} $\ast$vertices, unsigned int vertex\+Size, unsigned int $\ast$indexes, unsigned int index\+Size, const char $\ast$vertex\+Path, const char $\ast$fragment\+Path, const char $\ast$texture\+Path)
-\item 
+\mbox{\hyperlink{class_boreal_1_1_model_a1da130c3f876ce679481f701322994f7}{Model}} (\mbox{\hyperlink{struct_boreal_1_1_vertex}{Vertex}} $\ast$vertices, unsigned int vertex\+Count, unsigned int $\ast$indexes, unsigned int index\+Count, const char $\ast$vertex\+Path, const char $\ast$fragment\+Path, const char $\ast$texture\+Path)
+\begin{DoxyCompactList}\small\item\em Constructor that initalizes a model with the given vertices, indexes, shaders, and texture. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_boreal_1_1_model_a0f276d779c9e63f25b658fd1633c3d99}\label{class_boreal_1_1_model_a0f276d779c9e63f25b658fd1633c3d99}} 
+\mbox{\hyperlink{class_boreal_1_1_model_a0f276d779c9e63f25b658fd1633c3d99}{$\sim$\+Model}} ()
+\begin{DoxyCompactList}\small\item\em Destructor that destroys the model. \end{DoxyCompactList}\item 
 \mbox{\Hypertarget{class_boreal_1_1_model_a8753a92755d43950e352df4d912c48f2}\label{class_boreal_1_1_model_a8753a92755d43950e352df4d912c48f2}} 
-void {\bfseries Draw} ()
-\item 
-\mbox{\Hypertarget{class_boreal_1_1_model_aa9e9adb9aef1dd5bdae9c056e5f4207e}\label{class_boreal_1_1_model_aa9e9adb9aef1dd5bdae9c056e5f4207e}} 
-void {\bfseries Set\+Colour} (float r, float g, float b, float a)
-\item 
-\mbox{\Hypertarget{class_boreal_1_1_model_a2afa5b6f9508e72feb654f814ad90b92}\label{class_boreal_1_1_model_a2afa5b6f9508e72feb654f814ad90b92}} 
-void {\bfseries Translate} (glm\+::vec3 translation)
-\item 
-\mbox{\Hypertarget{class_boreal_1_1_model_aa069a9bd275872e22156c1e8b76e99d9}\label{class_boreal_1_1_model_aa069a9bd275872e22156c1e8b76e99d9}} 
-void {\bfseries Rotate} (glm\+::vec3 rotation)
-\item 
-\mbox{\Hypertarget{class_boreal_1_1_model_ac2699f6de8fce8d66c7a2fffe60b2258}\label{class_boreal_1_1_model_ac2699f6de8fce8d66c7a2fffe60b2258}} 
-void {\bfseries Set\+Location} (glm\+::vec3 location)
-\item 
-\mbox{\Hypertarget{class_boreal_1_1_model_ab0602afc0eed7a8e1c163494518d195e}\label{class_boreal_1_1_model_ab0602afc0eed7a8e1c163494518d195e}} 
-void {\bfseries Set\+Rotation} (glm\+::vec3 rotation)
-\item 
-\mbox{\Hypertarget{class_boreal_1_1_model_adc80ec707bcdbf2df5857cabb338e537}\label{class_boreal_1_1_model_adc80ec707bcdbf2df5857cabb338e537}} 
-void {\bfseries Set\+Scale} (glm\+::vec3 scale)
-\item 
+void \mbox{\hyperlink{class_boreal_1_1_model_a8753a92755d43950e352df4d912c48f2}{Draw}} ()
+\begin{DoxyCompactList}\small\item\em Draw function that draws the model. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_boreal_1_1_model_aa9e9adb9aef1dd5bdae9c056e5f4207e}{Set\+Colour}} (float r, float g, float b, float a)
+\begin{DoxyCompactList}\small\item\em Set colour function that lets you set the colour of the model (currently not functional) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_boreal_1_1_model_a2afa5b6f9508e72feb654f814ad90b92}{Translate}} (glm\+::vec3 translation)
+\begin{DoxyCompactList}\small\item\em Translate function moves the model by the specified translation vector. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_boreal_1_1_model_aa069a9bd275872e22156c1e8b76e99d9}{Rotate}} (glm\+::vec3 rotation)
+\begin{DoxyCompactList}\small\item\em Rotation function rotates the model by the specified rotation amount. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_boreal_1_1_model_ac2699f6de8fce8d66c7a2fffe60b2258}{Set\+Location}} (glm\+::vec3 location)
+\begin{DoxyCompactList}\small\item\em Set location function sets the location of the model. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_boreal_1_1_model_ab0602afc0eed7a8e1c163494518d195e}{Set\+Rotation}} (glm\+::vec3 rotation)
+\begin{DoxyCompactList}\small\item\em Set rotation function sets the rotation of the model. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_boreal_1_1_model_adc80ec707bcdbf2df5857cabb338e537}{Set\+Scale}} (glm\+::vec3 scale)
+\begin{DoxyCompactList}\small\item\em Set scale function sets the scale of the model. \end{DoxyCompactList}\item 
+glm\+::vec3 \mbox{\hyperlink{class_boreal_1_1_model_a991109905e587fe560eced41d2e424d2}{Get\+Location}} ()
+\begin{DoxyCompactList}\small\item\em Get location function returns the location of the model. \end{DoxyCompactList}\item 
+glm\+::vec3 \mbox{\hyperlink{class_boreal_1_1_model_ac23bd24755835a77db1f195deb41be8d}{Get\+Rotation}} ()
+\begin{DoxyCompactList}\small\item\em Get rotation function returns the rotation of the model. \end{DoxyCompactList}\item 
+glm\+::vec3 \mbox{\hyperlink{class_boreal_1_1_model_abae0b4b9d55ddb86d58a43bdcc0326b8}{Get\+Scale}} ()
+\begin{DoxyCompactList}\small\item\em Get scale function returns the scale of the model. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Allows user to create and manage models. 
+
+\hypertarget{class_boreal_1_1_window_Description}{}\doxysubsection{Description}\label{class_boreal_1_1_window_Description}
+The model class is used to create and manage models. It allows the user to do the following\+:
+\begin{DoxyItemize}
+\item Create model with vertices, indexes, shaders, textures
+\item Change location, rotation, and scale of the model
+\item Move and rotate model 
+\end{DoxyItemize}
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_boreal_1_1_model_a1da130c3f876ce679481f701322994f7}\label{class_boreal_1_1_model_a1da130c3f876ce679481f701322994f7}} 
+\index{Boreal::Model@{Boreal::Model}!Model@{Model}}
+\index{Model@{Model}!Boreal::Model@{Boreal::Model}}
+\doxysubsubsection{\texorpdfstring{Model()}{Model()}}
+{\footnotesize\ttfamily Boreal\+::\+Model\+::\+Model (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_boreal_1_1_vertex}{Vertex}} $\ast$}]{vertices,  }\item[{unsigned int}]{vertex\+Count,  }\item[{unsigned int $\ast$}]{indexes,  }\item[{unsigned int}]{index\+Count,  }\item[{const char $\ast$}]{vertex\+Path,  }\item[{const char $\ast$}]{fragment\+Path,  }\item[{const char $\ast$}]{texture\+Path }\end{DoxyParamCaption})}
+
+
+
+Constructor that initalizes a model with the given vertices, indexes, shaders, and texture. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em vertices} & Pointer to array of vertices to be used by the model \\
+\hline
+\mbox{\texttt{ in}}  & {\em vertex\+Count} & Number of vertices in array pointed to by vertices parameter \\
+\hline
+\mbox{\texttt{ in}}  & {\em indexes} & Pointer to array of indexes to be used by the model \\
+\hline
+\mbox{\texttt{ in}}  & {\em index\+Count} & Number of indexes in array pointed to by indexes parameter \\
+\hline
+\mbox{\texttt{ in}}  & {\em vertex\+Path} & Path to vertex shader to be used by the model \\
+\hline
+\mbox{\texttt{ in}}  & {\em fragment\+Path} & Path to fragment shader to be used by the model \\
+\hline
+\mbox{\texttt{ in}}  & {\em texture\+Path} & Path to texture to be used by the model \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
 \mbox{\Hypertarget{class_boreal_1_1_model_a991109905e587fe560eced41d2e424d2}\label{class_boreal_1_1_model_a991109905e587fe560eced41d2e424d2}} 
-glm\+::vec3 {\bfseries Get\+Location} ()
-\item 
+\index{Boreal::Model@{Boreal::Model}!GetLocation@{GetLocation}}
+\index{GetLocation@{GetLocation}!Boreal::Model@{Boreal::Model}}
+\doxysubsubsection{\texorpdfstring{GetLocation()}{GetLocation()}}
+{\footnotesize\ttfamily glm\+::vec3 Boreal\+::\+Model\+::\+Get\+Location (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Get location function returns the location of the model. 
+
+\begin{DoxyReturn}{Returns}
+Returns the location of the model as a glm\+::vec3 
+\end{DoxyReturn}
 \mbox{\Hypertarget{class_boreal_1_1_model_ac23bd24755835a77db1f195deb41be8d}\label{class_boreal_1_1_model_ac23bd24755835a77db1f195deb41be8d}} 
-glm\+::vec3 {\bfseries Get\+Rotation} ()
-\item 
+\index{Boreal::Model@{Boreal::Model}!GetRotation@{GetRotation}}
+\index{GetRotation@{GetRotation}!Boreal::Model@{Boreal::Model}}
+\doxysubsubsection{\texorpdfstring{GetRotation()}{GetRotation()}}
+{\footnotesize\ttfamily glm\+::vec3 Boreal\+::\+Model\+::\+Get\+Rotation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Get rotation function returns the rotation of the model. 
+
+\begin{DoxyReturn}{Returns}
+Returns the rotation of the model as a glm\+::vec3 in degrees (Euler Angles) 
+\end{DoxyReturn}
 \mbox{\Hypertarget{class_boreal_1_1_model_abae0b4b9d55ddb86d58a43bdcc0326b8}\label{class_boreal_1_1_model_abae0b4b9d55ddb86d58a43bdcc0326b8}} 
-glm\+::vec3 {\bfseries Get\+Scale} ()
-\end{DoxyCompactItemize}
+\index{Boreal::Model@{Boreal::Model}!GetScale@{GetScale}}
+\index{GetScale@{GetScale}!Boreal::Model@{Boreal::Model}}
+\doxysubsubsection{\texorpdfstring{GetScale()}{GetScale()}}
+{\footnotesize\ttfamily glm\+::vec3 Boreal\+::\+Model\+::\+Get\+Scale (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Get scale function returns the scale of the model. 
+
+\begin{DoxyReturn}{Returns}
+Returns the scale of the model as a glm\+::vec3 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_boreal_1_1_model_aa069a9bd275872e22156c1e8b76e99d9}\label{class_boreal_1_1_model_aa069a9bd275872e22156c1e8b76e99d9}} 
+\index{Boreal::Model@{Boreal::Model}!Rotate@{Rotate}}
+\index{Rotate@{Rotate}!Boreal::Model@{Boreal::Model}}
+\doxysubsubsection{\texorpdfstring{Rotate()}{Rotate()}}
+{\footnotesize\ttfamily void Boreal\+::\+Model\+::\+Rotate (\begin{DoxyParamCaption}\item[{glm\+::vec3}]{rotation }\end{DoxyParamCaption})}
+
+
+
+Rotation function rotates the model by the specified rotation amount. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rotation} & Vector to rotate the model by in degrees (Euler Angles) \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_boreal_1_1_model_aa9e9adb9aef1dd5bdae9c056e5f4207e}\label{class_boreal_1_1_model_aa9e9adb9aef1dd5bdae9c056e5f4207e}} 
+\index{Boreal::Model@{Boreal::Model}!SetColour@{SetColour}}
+\index{SetColour@{SetColour}!Boreal::Model@{Boreal::Model}}
+\doxysubsubsection{\texorpdfstring{SetColour()}{SetColour()}}
+{\footnotesize\ttfamily void Boreal\+::\+Model\+::\+Set\+Colour (\begin{DoxyParamCaption}\item[{float}]{r,  }\item[{float}]{g,  }\item[{float}]{b,  }\item[{float}]{a }\end{DoxyParamCaption})}
+
+
+
+Set colour function that lets you set the colour of the model (currently not functional) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em r} & Red value of the colour to be set \\
+\hline
+{\em g} & Green value of the colour to be set \\
+\hline
+{\em b} & Blue value of the colour to be set \\
+\hline
+{\em a} & Alpha value of the colour to be set \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_boreal_1_1_model_ac2699f6de8fce8d66c7a2fffe60b2258}\label{class_boreal_1_1_model_ac2699f6de8fce8d66c7a2fffe60b2258}} 
+\index{Boreal::Model@{Boreal::Model}!SetLocation@{SetLocation}}
+\index{SetLocation@{SetLocation}!Boreal::Model@{Boreal::Model}}
+\doxysubsubsection{\texorpdfstring{SetLocation()}{SetLocation()}}
+{\footnotesize\ttfamily void Boreal\+::\+Model\+::\+Set\+Location (\begin{DoxyParamCaption}\item[{glm\+::vec3}]{location }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Set location function sets the location of the model. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em location} & Location vector to set the model location to \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_boreal_1_1_model_ab0602afc0eed7a8e1c163494518d195e}\label{class_boreal_1_1_model_ab0602afc0eed7a8e1c163494518d195e}} 
+\index{Boreal::Model@{Boreal::Model}!SetRotation@{SetRotation}}
+\index{SetRotation@{SetRotation}!Boreal::Model@{Boreal::Model}}
+\doxysubsubsection{\texorpdfstring{SetRotation()}{SetRotation()}}
+{\footnotesize\ttfamily void Boreal\+::\+Model\+::\+Set\+Rotation (\begin{DoxyParamCaption}\item[{glm\+::vec3}]{rotation }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Set rotation function sets the rotation of the model. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rotation} & Rotation vector to set the model rotation to in degrees (Euler Angles) \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_boreal_1_1_model_adc80ec707bcdbf2df5857cabb338e537}\label{class_boreal_1_1_model_adc80ec707bcdbf2df5857cabb338e537}} 
+\index{Boreal::Model@{Boreal::Model}!SetScale@{SetScale}}
+\index{SetScale@{SetScale}!Boreal::Model@{Boreal::Model}}
+\doxysubsubsection{\texorpdfstring{SetScale()}{SetScale()}}
+{\footnotesize\ttfamily void Boreal\+::\+Model\+::\+Set\+Scale (\begin{DoxyParamCaption}\item[{glm\+::vec3}]{scale }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Set scale function sets the scale of the model. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em scale} & Scale vector to set the model scale to \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_boreal_1_1_model_a2afa5b6f9508e72feb654f814ad90b92}\label{class_boreal_1_1_model_a2afa5b6f9508e72feb654f814ad90b92}} 
+\index{Boreal::Model@{Boreal::Model}!Translate@{Translate}}
+\index{Translate@{Translate}!Boreal::Model@{Boreal::Model}}
+\doxysubsubsection{\texorpdfstring{Translate()}{Translate()}}
+{\footnotesize\ttfamily void Boreal\+::\+Model\+::\+Translate (\begin{DoxyParamCaption}\item[{glm\+::vec3}]{translation }\end{DoxyParamCaption})}
+
+
+
+Translate function moves the model by the specified translation vector. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em translation} & Vector to translate the position of the model by \\
+\hline
+\end{DoxyParams}
 
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}

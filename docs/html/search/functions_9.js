@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['_7eindexbuffer_72',['~IndexBuffer',['../class_boreal_1_1_index_buffer.html#a0c4666446a502218941e14f648bd0a91',1,'Boreal::IndexBuffer']]],
-  ['_7evertexbuffer_73',['~VertexBuffer',['../class_boreal_1_1_vertex_buffer.html#ad2121f4c846185038d532d1f69fac219',1,'Boreal::VertexBuffer']]],
-  ['_7ewindow_74',['~Window',['../class_boreal_1_1_window.html#a717e853a2a230213f8aa3eeda327730b',1,'Boreal::Window']]]
+  ['unbind_90',['UnBind',['../class_boreal_1_1_index_buffer.html#ae90daed3b4585af83d1b9565687b60bf',1,'Boreal::IndexBuffer::UnBind()'],['../class_boreal_1_1_vertex_buffer.html#a0d10923f5edce269c13721047230ba04',1,'Boreal::VertexBuffer::UnBind()']]],
+  ['update_91',['Update',['../class_boreal_1_1_input.html#ae43c2dab3e9a63c436830e8f3168beed',1,'Boreal::Input::Update()'],['../class_boreal_1_1_window.html#af814a12c11ed79ea6cc05bd6a7034ea7',1,'Boreal::Window::Update()']]]
 ];
