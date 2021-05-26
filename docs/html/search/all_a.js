@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['_7ewindow_26',['~Window',['../class_boreal_1_1_window.html#a717e853a2a230213f8aa3eeda327730b',1,'Boreal::Window']]]
+  ['v_29',['v',['../struct_boreal_1_1_vertex.html#af807e52e437b1cf5c613d6fec4aa875a',1,'Boreal::Vertex']]],
+  ['vertex_30',['Vertex',['../struct_boreal_1_1_vertex.html',1,'Boreal::Vertex'],['../namespace_boreal.html#a28283aca0354028d23d7388d1bd78072',1,'Boreal::Vertex()']]],
+  ['vertexbuffer_31',['VertexBuffer',['../class_boreal_1_1_vertex_buffer.html',1,'Boreal']]]
 ];

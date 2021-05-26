@@ -9,7 +9,6 @@
 namespace Boreal {
 	/**
 	* @brief Allows user to create and manage windows.
-	* @date 2021-05-25
 	* 
 	* @section DESCRIPTION
 	* 
@@ -23,9 +22,6 @@ namespace Boreal {
 	class Window {
 	private:
 		// VARIABLES
-		/**
-		* @brief Width of the window in pixels
-		*/
 		int m_Width; 
 		int m_Height;
 		bool m_IsFullscreen;

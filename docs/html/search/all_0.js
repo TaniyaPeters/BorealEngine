@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['boreal_0',['Boreal',['../namespace_boreal.html',1,'']]],
-  ['borealengine_1',['BorealEngine',['../md__r_e_a_d_m_e.html',1,'']]]
+  ['a_0',['a',['../struct_boreal_1_1_vertex.html#ab459686652bd3d01de43a102d3a5f524',1,'Boreal::Vertex']]]
 ];

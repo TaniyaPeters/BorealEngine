@@ -1,6 +1,7 @@
 #pragma once
 
 #include "GLFW/glfw3.h"
+
 #define BOREAL_KEY_0 GLFW_KEY_0
 #define BOREAL_KEY_1 GLFW_KEY_1
 #define BOREAL_KEY_2 GLFW_KEY_2
@@ -129,7 +130,6 @@
 namespace Boreal {
 	/**
 	* @brief Allows user to handle user input.
-	* @date 2021-05-25
 	*
 	* @section DESCRIPTION
 	*
@@ -139,6 +139,9 @@ namespace Boreal {
 	*/
 	class Input {
 	public:
+		/**
+		* @brief Update function to be used in main loop, polls for events
+		*/
 		static void Update() { glfwPollEvents(); }
 	};
 }

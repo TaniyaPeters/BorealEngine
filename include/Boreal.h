@@ -6,6 +6,7 @@
 
 // Boreal Engine Includes
 #include "Input.h"
+#include "Time.h"
 #include "Window.h"
 
 #define BOREAL_OPENGL_VERSION_MAJOR 4

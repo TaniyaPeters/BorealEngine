@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['camera_2',['Camera',['../class_boreal_1_1_camera.html',1,'Boreal']]],
-  ['close_3',['Close',['../class_boreal_1_1_window.html#af8c965aa44524d4997e5565c34267ad6',1,'Boreal::Window']]]
+  ['b_1',['b',['../struct_boreal_1_1_vertex.html#adb46d55374e04eb43cea665063da0114',1,'Boreal::Vertex']]],
+  ['boreal_2',['Boreal',['../namespace_boreal.html',1,'']]],
+  ['borealengine_3',['BorealEngine',['../md__r_e_a_d_m_e.html',1,'']]]
 ];

@@ -79,31 +79,32 @@ $(function() {
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">// Boreal Engine Includes</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;Input.h&quot;</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;Window.h&quot;</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#define BOREAL_OPENGL_VERSION_MAJOR 4</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#define BOREAL_OPENGL_VERSION_MINOR 6</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#define BOREAL_OPENGL_PROFILE GLFW_OPENGL_CORE_PROFILE</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
-<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="namespace_boreal.html">   18</a></span>&#160;<span class="keyword">namespace </span><a class="code" href="namespace_boreal.html">Boreal</a> {</div>
-<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="namespace_boreal.html#a92b7d6f98e3ba3c2e19f567777259a9c">   22</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="namespace_boreal.html#a92b7d6f98e3ba3c2e19f567777259a9c">Initialize</a>() {</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="comment">// Initialize GLFW</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        glfwInit();</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="comment">// Window Hints - Verson: 4.6 - Profile: Core Profile</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, BOREAL_OPENGL_VERSION_MAJOR);</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, BOREAL_OPENGL_VERSION_MINOR);</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        glfwWindowHint(GLFW_OPENGL_PROFILE, BOREAL_OPENGL_PROFILE);</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    }</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
-<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="namespace_boreal.html#aba377b3c62314887b728182ed115c7e4">   35</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="namespace_boreal.html#aba377b3c62314887b728182ed115c7e4">Terminate</a>() {</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="comment">// Terminate GLFW</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        glfwTerminate();</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    }</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;}</div>
-<div class="ttc" id="anamespace_boreal_html"><div class="ttname"><a href="namespace_boreal.html">Boreal</a></div><div class="ttdoc">Namespace for all things related to Boreal Engine.</div><div class="ttdef"><b>Definition:</b> Boreal.h:18</div></div>
-<div class="ttc" id="anamespace_boreal_html_a92b7d6f98e3ba3c2e19f567777259a9c"><div class="ttname"><a href="namespace_boreal.html#a92b7d6f98e3ba3c2e19f567777259a9c">Boreal::Initialize</a></div><div class="ttdeci">void Initialize()</div><div class="ttdoc">Function to initialize everything needed to use Boreal Engine.</div><div class="ttdef"><b>Definition:</b> Boreal.h:22</div></div>
-<div class="ttc" id="anamespace_boreal_html_aba377b3c62314887b728182ed115c7e4"><div class="ttname"><a href="namespace_boreal.html#aba377b3c62314887b728182ed115c7e4">Boreal::Terminate</a></div><div class="ttdeci">void Terminate()</div><div class="ttdoc">Function to terminate Boreal Engine.</div><div class="ttdef"><b>Definition:</b> Boreal.h:35</div></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;Time.h&quot;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;Window.h&quot;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#define BOREAL_OPENGL_VERSION_MAJOR 4</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#define BOREAL_OPENGL_VERSION_MINOR 6</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#define BOREAL_OPENGL_PROFILE GLFW_OPENGL_CORE_PROFILE</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="namespace_boreal.html">   19</a></span>&#160;<span class="keyword">namespace </span><a class="code" href="namespace_boreal.html">Boreal</a> {</div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="namespace_boreal.html#a92b7d6f98e3ba3c2e19f567777259a9c">   23</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="namespace_boreal.html#a92b7d6f98e3ba3c2e19f567777259a9c">Initialize</a>() {</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="comment">// Initialize GLFW</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        glfwInit();</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="comment">// Window Hints - Verson: 4.6 - Profile: Core Profile</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, BOREAL_OPENGL_VERSION_MAJOR);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, BOREAL_OPENGL_VERSION_MINOR);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        glfwWindowHint(GLFW_OPENGL_PROFILE, BOREAL_OPENGL_PROFILE);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    }</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="namespace_boreal.html#aba377b3c62314887b728182ed115c7e4">   36</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="namespace_boreal.html#aba377b3c62314887b728182ed115c7e4">Terminate</a>() {</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="comment">// Terminate GLFW</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        glfwTerminate();</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    }</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;}</div>
+<div class="ttc" id="anamespace_boreal_html"><div class="ttname"><a href="namespace_boreal.html">Boreal</a></div><div class="ttdoc">Namespace for all things related to Boreal Engine.</div><div class="ttdef"><b>Definition:</b> Boreal.h:19</div></div>
+<div class="ttc" id="anamespace_boreal_html_a92b7d6f98e3ba3c2e19f567777259a9c"><div class="ttname"><a href="namespace_boreal.html#a92b7d6f98e3ba3c2e19f567777259a9c">Boreal::Initialize</a></div><div class="ttdeci">void Initialize()</div><div class="ttdoc">Function to initialize everything needed to use Boreal Engine.</div><div class="ttdef"><b>Definition:</b> Boreal.h:23</div></div>
+<div class="ttc" id="anamespace_boreal_html_aba377b3c62314887b728182ed115c7e4"><div class="ttname"><a href="namespace_boreal.html#aba377b3c62314887b728182ed115c7e4">Boreal::Terminate</a></div><div class="ttdeci">void Terminate()</div><div class="ttdoc">Function to terminate Boreal Engine.</div><div class="ttdef"><b>Definition:</b> Boreal.h:36</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

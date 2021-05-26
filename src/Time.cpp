@@ -1,38 +1,41 @@
 #include "Time.h"
 #include "GLFW/glfw3.h"
 
-// Create an Null Pointer
-Time* Time::m_Instance = nullptr;
+namespace Boreal {
+	// Create an Null Pointer
+	Time* Time::m_Instance = nullptr;
 
-Time::Time() {
-	m_CurrentTime = 0.0;
-	m_DeltaTime = 0.0;
-	m_PreviousTime = 0.0;
-}
-
-Time::~Time() {}
-
-Time* Time::GetInstance() {
-	if (!m_Instance) {
-		m_Instance = new Time();
+	Time::Time() {
+		m_CurrentTime = 0.0;
+		m_DeltaTime = 0.0;
+		m_PreviousTime = 0.0;
 	}
 
-	return m_Instance;
-}
+	Time::~Time() {}
 
-float Time::GetDeltaTime() {
-	return (float)GetInstance()->m_DeltaTime;
-}
+	Time* Time::GetInstance() {
+		if (!m_Instance) {
+			m_Instance = new Time();
+		}
 
-void Time::Update() {
-	GetInstance()->m_PreviousTime = GetInstance()->m_CurrentTime;
-	GetInstance()->m_CurrentTime = glfwGetTime();
-	GetInstance()->m_DeltaTime = GetInstance()->m_CurrentTime - GetInstance()->m_PreviousTime;
-}
+		return m_Instance;
+	}
 
-void Time::Destroy() {
+	float Time::GetDeltaTime() {
+		return (float)GetInstance()->m_DeltaTime;
+	}
 
-	delete m_Instance;
-	m_Instance = nullptr;
+	void Time::Update() {
+		GetInstance()->m_PreviousTime = GetInstance()->m_CurrentTime;
+		GetInstance()->m_CurrentTime = glfwGetTime();
+		GetInstance()->m_DeltaTime = GetInstance()->m_CurrentTime - GetInstance()->m_PreviousTime;
+	}
+
+	void Time::Destroy() {
+
+		delete m_Instance;
+		m_Instance = nullptr;
+
+	}
 
 }
