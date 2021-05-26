@@ -1,2 +1,2 @@
 # BorealEngine
-A game entgine written in C++ using OpenGL
+A game engine written in C++ using OpenGL
