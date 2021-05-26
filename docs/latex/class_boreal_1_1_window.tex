@@ -1,0 +1,246 @@
+\hypertarget{class_boreal_1_1_window}{}\doxysection{Boreal\+::Window Class Reference}
+\label{class_boreal_1_1_window}\index{Boreal::Window@{Boreal::Window}}
+
+
+Allows user to create and manage windows.  
+
+
+
+
+{\ttfamily \#include $<$Window.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_boreal_1_1_window_a687a34ce7c9f0ddff6b2a91cddb18022}{Window}} (int width, int height, std\+::string title, bool is\+Fullscreen=false)
+\begin{DoxyCompactList}\small\item\em Constructor that initalizes a window with the given width, height, title, and a boolean for fullscreen. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_boreal_1_1_window_a717e853a2a230213f8aa3eeda327730b}\label{class_boreal_1_1_window_a717e853a2a230213f8aa3eeda327730b}} 
+\mbox{\hyperlink{class_boreal_1_1_window_a717e853a2a230213f8aa3eeda327730b}{$\sim$\+Window}} ()
+\begin{DoxyCompactList}\small\item\em Destructor that destroys the window. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_boreal_1_1_window_af814a12c11ed79ea6cc05bd6a7034ea7}\label{class_boreal_1_1_window_af814a12c11ed79ea6cc05bd6a7034ea7}} 
+void \mbox{\hyperlink{class_boreal_1_1_window_af814a12c11ed79ea6cc05bd6a7034ea7}{Update}} ()
+\begin{DoxyCompactList}\small\item\em Update function to be used in main loop, swaps the buffers. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_boreal_1_1_window_ad81de9124cf39913b2043736d24c74ee}{Should\+Close}} ()
+\begin{DoxyCompactList}\small\item\em Should close function returns true if window should be closing. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_boreal_1_1_window_af8c965aa44524d4997e5565c34267ad6}\label{class_boreal_1_1_window_af8c965aa44524d4997e5565c34267ad6}} 
+void \mbox{\hyperlink{class_boreal_1_1_window_af8c965aa44524d4997e5565c34267ad6}{Close}} ()
+\begin{DoxyCompactList}\small\item\em Close function to close the window. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_boreal_1_1_window_a0ad2894e9ddec4cf09fc85ccb745387e}{Get\+Width}} ()
+\begin{DoxyCompactList}\small\item\em Getter for the width of the window. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_boreal_1_1_window_aa70c583fe26fab79351aa70ede6630b4}{Get\+Height}} ()
+\begin{DoxyCompactList}\small\item\em Getter for the height of the window. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_boreal_1_1_window_abe7388af80e6b6409d5095b3978ad9d5}{Get\+Is\+Fullscreen}} ()
+\begin{DoxyCompactList}\small\item\em Getter for the is fullscreen flag. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{class_boreal_1_1_window_a4d265814a17a75c3b2a701c4a38f8b9f}{Get\+Title}} ()
+\begin{DoxyCompactList}\small\item\em Getter for the title of the window. \end{DoxyCompactList}\item 
+GLFWwindow $\ast$ \mbox{\hyperlink{class_boreal_1_1_window_a9f67b226dcb68b844029977cb3e214e5}{Get\+Window}} ()
+\begin{DoxyCompactList}\small\item\em Getter for the GLFW window struct. \end{DoxyCompactList}\item 
+GLFWmonitor $\ast$ \mbox{\hyperlink{class_boreal_1_1_window_a55f4ad7470ca6e5740e057b9a2d09532}{Get\+Monitor}} ()
+\begin{DoxyCompactList}\small\item\em Getter for the GLFW monitor struct. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_boreal_1_1_window_aadc9c4bb76b08fb3d5988cf84d19c259}{Set\+Width}} (int width)
+\begin{DoxyCompactList}\small\item\em Setter for the width of the window. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_boreal_1_1_window_a8411b9088b74207792045044c58f478d}{Set\+Height}} (int height)
+\begin{DoxyCompactList}\small\item\em Setter for the height of the window. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_boreal_1_1_window_a3f868ef32c04990e7c4b02f1416ca4d8}{Set\+Is\+Fullscreen}} (bool is\+Fullscreen)
+\begin{DoxyCompactList}\small\item\em Setter for the is fullscreen flag. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_boreal_1_1_window_a36d873350fce5c23134017571051f921}{Set\+Title}} (std\+::string title)
+\begin{DoxyCompactList}\small\item\em Setter for the title of the window. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Allows user to create and manage windows. 
+
+\begin{DoxyDate}{Date}
+2021-\/05-\/25
+\end{DoxyDate}
+\hypertarget{class_boreal_1_1_window_DESCRIPTION}{}\doxysubsection{DESCRIPTION}\label{class_boreal_1_1_window_DESCRIPTION}
+The window class is used to create and managed windows. It allows the user to do the following\+:
+\begin{DoxyItemize}
+\item Create window with parameters
+\item Change window width \& height
+\item Change window title
+\item Update window for main loop 
+\end{DoxyItemize}
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_boreal_1_1_window_a687a34ce7c9f0ddff6b2a91cddb18022}\label{class_boreal_1_1_window_a687a34ce7c9f0ddff6b2a91cddb18022}} 
+\index{Boreal::Window@{Boreal::Window}!Window@{Window}}
+\index{Window@{Window}!Boreal::Window@{Boreal::Window}}
+\doxysubsubsection{\texorpdfstring{Window()}{Window()}}
+{\footnotesize\ttfamily Boreal\+::\+Window\+::\+Window (\begin{DoxyParamCaption}\item[{int}]{width,  }\item[{int}]{height,  }\item[{std\+::string}]{title,  }\item[{bool}]{is\+Fullscreen = {\ttfamily false} }\end{DoxyParamCaption})}
+
+
+
+Constructor that initalizes a window with the given width, height, title, and a boolean for fullscreen. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em width} & is the width of the window in pixels \\
+\hline
+\mbox{\texttt{ in}}  & {\em height} & is the height of the window in pixels \\
+\hline
+\mbox{\texttt{ in}}  & {\em title} & is the title of the window \\
+\hline
+\mbox{\texttt{ in}}  & {\em is\+Fullscreen} & is a boolean that determines if the window is initialized to fullscreen or not \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_boreal_1_1_window_aa70c583fe26fab79351aa70ede6630b4}\label{class_boreal_1_1_window_aa70c583fe26fab79351aa70ede6630b4}} 
+\index{Boreal::Window@{Boreal::Window}!GetHeight@{GetHeight}}
+\index{GetHeight@{GetHeight}!Boreal::Window@{Boreal::Window}}
+\doxysubsubsection{\texorpdfstring{GetHeight()}{GetHeight()}}
+{\footnotesize\ttfamily int Boreal\+::\+Window\+::\+Get\+Height (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Getter for the height of the window. 
+
+\begin{DoxyReturn}{Returns}
+Returns the height of the window as an integer 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_boreal_1_1_window_abe7388af80e6b6409d5095b3978ad9d5}\label{class_boreal_1_1_window_abe7388af80e6b6409d5095b3978ad9d5}} 
+\index{Boreal::Window@{Boreal::Window}!GetIsFullscreen@{GetIsFullscreen}}
+\index{GetIsFullscreen@{GetIsFullscreen}!Boreal::Window@{Boreal::Window}}
+\doxysubsubsection{\texorpdfstring{GetIsFullscreen()}{GetIsFullscreen()}}
+{\footnotesize\ttfamily bool Boreal\+::\+Window\+::\+Get\+Is\+Fullscreen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Getter for the is fullscreen flag. 
+
+\begin{DoxyReturn}{Returns}
+Returns the fullscreen flag as a boolean 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_boreal_1_1_window_a55f4ad7470ca6e5740e057b9a2d09532}\label{class_boreal_1_1_window_a55f4ad7470ca6e5740e057b9a2d09532}} 
+\index{Boreal::Window@{Boreal::Window}!GetMonitor@{GetMonitor}}
+\index{GetMonitor@{GetMonitor}!Boreal::Window@{Boreal::Window}}
+\doxysubsubsection{\texorpdfstring{GetMonitor()}{GetMonitor()}}
+{\footnotesize\ttfamily GLFWmonitor$\ast$ Boreal\+::\+Window\+::\+Get\+Monitor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Getter for the GLFW monitor struct. 
+
+\begin{DoxyReturn}{Returns}
+Returns a pointer to the GLFW monitor struct 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_boreal_1_1_window_a4d265814a17a75c3b2a701c4a38f8b9f}\label{class_boreal_1_1_window_a4d265814a17a75c3b2a701c4a38f8b9f}} 
+\index{Boreal::Window@{Boreal::Window}!GetTitle@{GetTitle}}
+\index{GetTitle@{GetTitle}!Boreal::Window@{Boreal::Window}}
+\doxysubsubsection{\texorpdfstring{GetTitle()}{GetTitle()}}
+{\footnotesize\ttfamily std\+::string Boreal\+::\+Window\+::\+Get\+Title (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Getter for the title of the window. 
+
+\begin{DoxyReturn}{Returns}
+Returns the title of the window as an std\+::string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_boreal_1_1_window_a0ad2894e9ddec4cf09fc85ccb745387e}\label{class_boreal_1_1_window_a0ad2894e9ddec4cf09fc85ccb745387e}} 
+\index{Boreal::Window@{Boreal::Window}!GetWidth@{GetWidth}}
+\index{GetWidth@{GetWidth}!Boreal::Window@{Boreal::Window}}
+\doxysubsubsection{\texorpdfstring{GetWidth()}{GetWidth()}}
+{\footnotesize\ttfamily int Boreal\+::\+Window\+::\+Get\+Width (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Getter for the width of the window. 
+
+\begin{DoxyReturn}{Returns}
+Returns the width of the window as an integer 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_boreal_1_1_window_a9f67b226dcb68b844029977cb3e214e5}\label{class_boreal_1_1_window_a9f67b226dcb68b844029977cb3e214e5}} 
+\index{Boreal::Window@{Boreal::Window}!GetWindow@{GetWindow}}
+\index{GetWindow@{GetWindow}!Boreal::Window@{Boreal::Window}}
+\doxysubsubsection{\texorpdfstring{GetWindow()}{GetWindow()}}
+{\footnotesize\ttfamily GLFWwindow$\ast$ Boreal\+::\+Window\+::\+Get\+Window (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Getter for the GLFW window struct. 
+
+\begin{DoxyReturn}{Returns}
+Returns a pointer to the GLFW window struct 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_boreal_1_1_window_a8411b9088b74207792045044c58f478d}\label{class_boreal_1_1_window_a8411b9088b74207792045044c58f478d}} 
+\index{Boreal::Window@{Boreal::Window}!SetHeight@{SetHeight}}
+\index{SetHeight@{SetHeight}!Boreal::Window@{Boreal::Window}}
+\doxysubsubsection{\texorpdfstring{SetHeight()}{SetHeight()}}
+{\footnotesize\ttfamily void Boreal\+::\+Window\+::\+Set\+Height (\begin{DoxyParamCaption}\item[{int}]{height }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Setter for the height of the window. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em height} & is the height of the window in pixels \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_boreal_1_1_window_a3f868ef32c04990e7c4b02f1416ca4d8}\label{class_boreal_1_1_window_a3f868ef32c04990e7c4b02f1416ca4d8}} 
+\index{Boreal::Window@{Boreal::Window}!SetIsFullscreen@{SetIsFullscreen}}
+\index{SetIsFullscreen@{SetIsFullscreen}!Boreal::Window@{Boreal::Window}}
+\doxysubsubsection{\texorpdfstring{SetIsFullscreen()}{SetIsFullscreen()}}
+{\footnotesize\ttfamily void Boreal\+::\+Window\+::\+Set\+Is\+Fullscreen (\begin{DoxyParamCaption}\item[{bool}]{is\+Fullscreen }\end{DoxyParamCaption})}
+
+
+
+Setter for the is fullscreen flag. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em is\+Fullscreen} & is the value of the fullscreen flag as a boolean \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_boreal_1_1_window_a36d873350fce5c23134017571051f921}\label{class_boreal_1_1_window_a36d873350fce5c23134017571051f921}} 
+\index{Boreal::Window@{Boreal::Window}!SetTitle@{SetTitle}}
+\index{SetTitle@{SetTitle}!Boreal::Window@{Boreal::Window}}
+\doxysubsubsection{\texorpdfstring{SetTitle()}{SetTitle()}}
+{\footnotesize\ttfamily void Boreal\+::\+Window\+::\+Set\+Title (\begin{DoxyParamCaption}\item[{std\+::string}]{title }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Setter for the title of the window. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em title} & is the title of the window as an std\+::string \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_boreal_1_1_window_aadc9c4bb76b08fb3d5988cf84d19c259}\label{class_boreal_1_1_window_aadc9c4bb76b08fb3d5988cf84d19c259}} 
+\index{Boreal::Window@{Boreal::Window}!SetWidth@{SetWidth}}
+\index{SetWidth@{SetWidth}!Boreal::Window@{Boreal::Window}}
+\doxysubsubsection{\texorpdfstring{SetWidth()}{SetWidth()}}
+{\footnotesize\ttfamily void Boreal\+::\+Window\+::\+Set\+Width (\begin{DoxyParamCaption}\item[{int}]{width }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Setter for the width of the window. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em width} & is the width of the window in pixels \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_boreal_1_1_window_ad81de9124cf39913b2043736d24c74ee}\label{class_boreal_1_1_window_ad81de9124cf39913b2043736d24c74ee}} 
+\index{Boreal::Window@{Boreal::Window}!ShouldClose@{ShouldClose}}
+\index{ShouldClose@{ShouldClose}!Boreal::Window@{Boreal::Window}}
+\doxysubsubsection{\texorpdfstring{ShouldClose()}{ShouldClose()}}
+{\footnotesize\ttfamily bool Boreal\+::\+Window\+::\+Should\+Close (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Should close function returns true if window should be closing. 
+
+\begin{DoxyReturn}{Returns}
+Returns true if window should close, false if window should not close 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/Window.\+h\item 
+src/Window.\+cpp\end{DoxyCompactItemize}

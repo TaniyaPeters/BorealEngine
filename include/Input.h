@@ -125,9 +125,9 @@
 #define BOREAL_KEY_KP_MULTIPLY GLFW_KEY_KP_MULTIPLY
 #define BOREAL_KEY_KP_SUBTRACT GLFW_KEY_KP_SUBTRACT
 #define BOREAL_PRESS GLFW_PRESS
+
 namespace Boreal {
-	/*
-	* @file Input.h
+	/**
 	* @brief Allows user to handle user input.
 	* @date 2021-05-25
 	*

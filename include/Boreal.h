@@ -12,7 +12,13 @@
 #define BOREAL_OPENGL_VERSION_MINOR 6
 #define BOREAL_OPENGL_PROFILE GLFW_OPENGL_CORE_PROFILE
 
+/**
+* @brief Namespace for all things related to Boreal Engine
+*/
 namespace Boreal {
+	/**
+	* @brief Function to initialize everything needed to use Boreal Engine
+	*/
 	void Initialize() {
 		// Initialize GLFW
 		glfwInit();
@@ -23,6 +29,9 @@ namespace Boreal {
 		glfwWindowHint(GLFW_OPENGL_PROFILE, BOREAL_OPENGL_PROFILE);
 	}
 
+	/**
+	* @brief Function to terminate Boreal Engine
+	*/
 	void Terminate() {
 		// Terminate GLFW
 		glfwTerminate();
