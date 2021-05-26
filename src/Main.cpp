@@ -5,24 +5,26 @@
 
 #include "Boreal.h"
 
-int main() {
-	// Initialize Boreal Engine
-	Boreal::Initialize();
+namespace Boreal {
+	int main() {
+		// Initialize Boreal Engine
+		Boreal::Initialize();
 
-	// Create New Window
-	Boreal::Window window(800, 600, "Hello!");
+		// Create New Window
+		Boreal::Window window(800, 600, "Hello!");
 
-	std::cout << "Hello, Boreal Engine!" << std::endl;
+		std::cout << "Hello, Boreal Engine!" << std::endl;
 
-	// Main loop
-	while (!window.ShouldClose()) {
-		glClearColor(0.3f, 0.29f, 0.69f, 1.0f);
-		glClear(GL_COLOR_BUFFER_BIT);
-		window.Update();
-		Boreal::Input::Update();
+		// Main loop
+		while (!window.ShouldClose()) {
+			glClearColor(0.3f, 0.29f, 0.69f, 1.0f);
+			glClear(GL_COLOR_BUFFER_BIT);
+			window.Update();
+			Boreal::Input::Update();
+		}
+
+		// Terminate Boreal Engine
+		Boreal::Terminate();
+		return 0;
 	}
-
-	// Terminate Boreal Engine
-	Boreal::Terminate();
-	return 0;
 }
