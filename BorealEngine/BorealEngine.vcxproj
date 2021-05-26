@@ -145,14 +145,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\src\Camera.cpp" />
+    <ClCompile Include="..\src\IndexBuffer.cpp" />
     <ClCompile Include="..\src\Input.cpp" />
     <ClCompile Include="..\src\Main.cpp" />
+    <ClCompile Include="..\src\Model.cpp" />
+    <ClCompile Include="..\src\ShaderProgram.cpp" />
+    <ClCompile Include="..\src\Texture.cpp" />
+    <ClCompile Include="..\src\VertexBuffer.cpp" />
     <ClCompile Include="..\src\Window.cpp" />
     <ClCompile Include="..\vendor\glad\src\glad.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\Boreal.h" />
+    <ClInclude Include="..\include\Camera.h" />
+    <ClInclude Include="..\include\IndexBuffer.h" />
     <ClInclude Include="..\include\Input.h" />
+    <ClInclude Include="..\include\Model.h" />
+    <ClInclude Include="..\include\ShaderProgram.h" />
+    <ClInclude Include="..\include\Texture.h" />
+    <ClInclude Include="..\include\Vertex.h" />
+    <ClInclude Include="..\include\VertexBuffer.h" />
     <ClInclude Include="..\include\Window.h" />
   </ItemGroup>
   <ItemGroup>
