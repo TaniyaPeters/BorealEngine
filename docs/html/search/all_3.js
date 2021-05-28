@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['draw_7',['Draw',['../class_boreal_1_1_model.html#a8753a92755d43950e352df4d912c48f2',1,'Boreal::Model']]]
+  ['debug_7',['Debug',['../class_boreal_1_1_debug.html',1,'Boreal']]],
+  ['draw_8',['Draw',['../class_boreal_1_1_model.html#a8753a92755d43950e352df4d912c48f2',1,'Boreal::Model']]]
 ];

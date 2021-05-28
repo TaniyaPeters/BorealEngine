@@ -1,4 +1,4 @@
-#include "Time.h"
+#include "BorealTime.h"
 #include "GLFW/glfw3.h"
 
 namespace Boreal {

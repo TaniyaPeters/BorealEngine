@@ -54,14 +54,14 @@
     <ClCompile Include="..\src\VertexBuffer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\Time.cpp">
+    <ClCompile Include="..\src\BorealTime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Debug.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\include\Boreal.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\include\Window.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -89,7 +89,13 @@
     <ClInclude Include="..\include\VertexBuffer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\Time.h">
+    <ClInclude Include="..\include\BorealTime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Boreal.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

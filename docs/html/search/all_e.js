@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['y_46',['y',['../struct_boreal_1_1_vertex.html#a7fbad487d8652171db1598b56fa11260',1,'Boreal::Vertex']]]
+  ['window_58',['Window',['../class_boreal_1_1_window.html',1,'Boreal::Window'],['../class_boreal_1_1_window.html#a687a34ce7c9f0ddff6b2a91cddb18022',1,'Boreal::Window::Window()']]]
 ];

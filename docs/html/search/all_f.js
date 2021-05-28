@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['z_47',['z',['../struct_boreal_1_1_vertex.html#a47a75bc728a9fb5b6416c844cfe6b0ee',1,'Boreal::Vertex']]]
+  ['x_59',['x',['../struct_boreal_1_1_vertex.html#ae442b884f9a9ba182eaf6413aad3e805',1,'Boreal::Vertex']]]
 ];

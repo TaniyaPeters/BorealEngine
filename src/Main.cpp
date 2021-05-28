@@ -12,7 +12,10 @@ int main() {
 	// Create New Window
 	Boreal::Window window(800, 600, "Hello!");
 
-	std::cout << "Hello, Boreal Engine!" << std::endl;
+	Boreal::Debug::SetLogFilter(BOREAL_DEBUG_DISABLE);
+	Boreal::Debug::Log("Hello, Boreal Engine!");
+	Boreal::Debug::LogWarning("Test warning!");
+	Boreal::Debug::LogError("Test error!");
 
 	// Main loop
 	while (!window.ShouldClose()) {
@@ -23,6 +26,12 @@ int main() {
 	}
 
 	// Terminate Boreal Engine
+	Boreal::Debug::PrintLogCount();
+	Boreal::Debug::PrintLogs();
+	Boreal::Debug::PrintWarningCount();
+	Boreal::Debug::PrintWarnings();
+	Boreal::Debug::PrintErrorCount();
+	Boreal::Debug::PrintErrors();
 	Boreal::Terminate();
 	return 0;
 }

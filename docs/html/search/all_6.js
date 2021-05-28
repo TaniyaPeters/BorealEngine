@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['model_21',['Model',['../class_boreal_1_1_model.html',1,'Boreal::Model'],['../class_boreal_1_1_model.html#a1da130c3f876ce679481f701322994f7',1,'Boreal::Model::Model()']]]
+  ['log_25',['Log',['../class_boreal_1_1_debug.html#a90b9ecddd6330804e8c80931e9d98548',1,'Boreal::Debug']]],
+  ['logerror_26',['LogError',['../class_boreal_1_1_debug.html#ac18ba20e1abdd0de77436ca4d3c39942',1,'Boreal::Debug']]],
+  ['logwarning_27',['LogWarning',['../class_boreal_1_1_debug.html#aec86287f149040888f9846bab2928f7d',1,'Boreal::Debug']]]
 ];

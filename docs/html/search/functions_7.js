@@ -1,12 +1,9 @@
 var searchData=
 [
-  ['setcolour_79',['SetColour',['../class_boreal_1_1_model.html#aa9e9adb9aef1dd5bdae9c056e5f4207e',1,'Boreal::Model']]],
-  ['setheight_80',['SetHeight',['../class_boreal_1_1_window.html#a8411b9088b74207792045044c58f478d',1,'Boreal::Window']]],
-  ['setisfullscreen_81',['SetIsFullscreen',['../class_boreal_1_1_window.html#a3f868ef32c04990e7c4b02f1416ca4d8',1,'Boreal::Window']]],
-  ['setlocation_82',['SetLocation',['../class_boreal_1_1_model.html#ac2699f6de8fce8d66c7a2fffe60b2258',1,'Boreal::Model']]],
-  ['setrotation_83',['SetRotation',['../class_boreal_1_1_model.html#ab0602afc0eed7a8e1c163494518d195e',1,'Boreal::Model']]],
-  ['setscale_84',['SetScale',['../class_boreal_1_1_model.html#adc80ec707bcdbf2df5857cabb338e537',1,'Boreal::Model']]],
-  ['settitle_85',['SetTitle',['../class_boreal_1_1_window.html#a36d873350fce5c23134017571051f921',1,'Boreal::Window']]],
-  ['setwidth_86',['SetWidth',['../class_boreal_1_1_window.html#aadc9c4bb76b08fb3d5988cf84d19c259',1,'Boreal::Window']]],
-  ['shouldclose_87',['ShouldClose',['../class_boreal_1_1_window.html#ad81de9124cf39913b2043736d24c74ee',1,'Boreal::Window']]]
+  ['printerrorcount_99',['PrintErrorCount',['../class_boreal_1_1_debug.html#a42f89a3a5fcd7e116450a5634019e6f0',1,'Boreal::Debug']]],
+  ['printerrors_100',['PrintErrors',['../class_boreal_1_1_debug.html#a60571b98d7046b095ee2a529ec5ed404',1,'Boreal::Debug']]],
+  ['printlogcount_101',['PrintLogCount',['../class_boreal_1_1_debug.html#aefe0a566a73cc5c2981c55dce77a8f03',1,'Boreal::Debug']]],
+  ['printlogs_102',['PrintLogs',['../class_boreal_1_1_debug.html#a21fa201a36aa7f09816607b684859b0c',1,'Boreal::Debug']]],
+  ['printwarningcount_103',['PrintWarningCount',['../class_boreal_1_1_debug.html#a79d7fba621d5cb010450ee0740ce90b3',1,'Boreal::Debug']]],
+  ['printwarnings_104',['PrintWarnings',['../class_boreal_1_1_debug.html#a61b9d6cf7006400719aa9c89e512bdcb',1,'Boreal::Debug']]]
 ];

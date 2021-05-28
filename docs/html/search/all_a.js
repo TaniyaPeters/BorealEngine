@@ -1,6 +1,14 @@
 var searchData=
 [
-  ['u_38',['u',['../struct_boreal_1_1_vertex.html#a0ccb7d379985b3657b038c630dcb1482',1,'Boreal::Vertex']]],
-  ['unbind_39',['UnBind',['../class_boreal_1_1_index_buffer.html#ae90daed3b4585af83d1b9565687b60bf',1,'Boreal::IndexBuffer::UnBind()'],['../class_boreal_1_1_vertex_buffer.html#a0d10923f5edce269c13721047230ba04',1,'Boreal::VertexBuffer::UnBind()']]],
-  ['update_40',['Update',['../class_boreal_1_1_input.html#ae43c2dab3e9a63c436830e8f3168beed',1,'Boreal::Input::Update()'],['../class_boreal_1_1_window.html#af814a12c11ed79ea6cc05bd6a7034ea7',1,'Boreal::Window::Update()']]]
+  ['setcolour_37',['SetColour',['../class_boreal_1_1_model.html#aa9e9adb9aef1dd5bdae9c056e5f4207e',1,'Boreal::Model']]],
+  ['setheight_38',['SetHeight',['../class_boreal_1_1_window.html#a8411b9088b74207792045044c58f478d',1,'Boreal::Window']]],
+  ['setisfullscreen_39',['SetIsFullscreen',['../class_boreal_1_1_window.html#a3f868ef32c04990e7c4b02f1416ca4d8',1,'Boreal::Window']]],
+  ['setlocation_40',['SetLocation',['../class_boreal_1_1_model.html#ac2699f6de8fce8d66c7a2fffe60b2258',1,'Boreal::Model']]],
+  ['setlogfilter_41',['SetLogFilter',['../class_boreal_1_1_debug.html#aed9754f306bbef77e1c71b074972db61',1,'Boreal::Debug']]],
+  ['setrotation_42',['SetRotation',['../class_boreal_1_1_model.html#ab0602afc0eed7a8e1c163494518d195e',1,'Boreal::Model']]],
+  ['setscale_43',['SetScale',['../class_boreal_1_1_model.html#adc80ec707bcdbf2df5857cabb338e537',1,'Boreal::Model']]],
+  ['settitle_44',['SetTitle',['../class_boreal_1_1_window.html#a36d873350fce5c23134017571051f921',1,'Boreal::Window']]],
+  ['setwidth_45',['SetWidth',['../class_boreal_1_1_window.html#aadc9c4bb76b08fb3d5988cf84d19c259',1,'Boreal::Window']]],
+  ['shaderprogram_46',['ShaderProgram',['../class_boreal_1_1_shader_program.html',1,'Boreal']]],
+  ['shouldclose_47',['ShouldClose',['../class_boreal_1_1_window.html#ad81de9124cf39913b2043736d24c74ee',1,'Boreal::Window']]]
 ];

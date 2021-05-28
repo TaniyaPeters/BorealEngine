@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['x_104',['x',['../struct_boreal_1_1_vertex.html#ae442b884f9a9ba182eaf6413aad3e805',1,'Boreal::Vertex']]]
+  ['x_132',['x',['../struct_boreal_1_1_vertex.html#ae442b884f9a9ba182eaf6413aad3e805',1,'Boreal::Vertex']]]
 ];

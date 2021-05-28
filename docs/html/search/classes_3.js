@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['shaderprogram_56',['ShaderProgram',['../class_boreal_1_1_shader_program.html',1,'Boreal']]]
+  ['model_70',['Model',['../class_boreal_1_1_model.html',1,'Boreal']]]
 ];

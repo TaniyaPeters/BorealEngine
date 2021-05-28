@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['terminate_34',['Terminate',['../namespace_boreal.html#aba377b3c62314887b728182ed115c7e4',1,'Boreal']]],
-  ['texture_35',['Texture',['../class_boreal_1_1_texture.html',1,'Boreal']]],
-  ['time_36',['Time',['../class_boreal_1_1_time.html',1,'Boreal']]],
-  ['translate_37',['Translate',['../class_boreal_1_1_model.html#a2afa5b6f9508e72feb654f814ad90b92',1,'Boreal::Model']]]
+  ['r_35',['r',['../struct_boreal_1_1_vertex.html#ad6aca172135da0f334bee58f1015e98c',1,'Boreal::Vertex']]],
+  ['rotate_36',['Rotate',['../class_boreal_1_1_model.html#aa069a9bd275872e22156c1e8b76e99d9',1,'Boreal::Model']]]
 ];

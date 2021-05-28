@@ -5,8 +5,16 @@
 #include "GLFW/glfw3.h"
 
 // Boreal Engine Includes
+#include "Camera.h"
+#include "Debug.h"
+#include "IndexBuffer.h"
 #include "Input.h"
-#include "Time.h"
+#include "Model.h"
+#include "ShaderProgram.h"
+#include "Texture.h"
+#include "BorealTime.h"
+#include "Vertex.h"
+#include "VertexBuffer.h"
 #include "Window.h"
 
 #define BOREAL_OPENGL_VERSION_MAJOR 4

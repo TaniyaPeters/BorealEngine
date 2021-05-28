@@ -1,0 +1,160 @@
+\hypertarget{class_boreal_1_1_debug}{}\doxysection{Boreal\+::Debug Class Reference}
+\label{class_boreal_1_1_debug}\index{Boreal::Debug@{Boreal::Debug}}
+
+
+Allows user to log messages, as well as warnings and errors. Allows filtering for specific message types (log, warning, and error).  
+
+
+
+
+{\ttfamily \#include $<$Debug.\+h$>$}
+
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{class_boreal_1_1_debug_a90b9ecddd6330804e8c80931e9d98548}{Log}} (std\+::string message)
+\begin{DoxyCompactList}\small\item\em Logs a regular message (white text). Filters the message and adds it to buffer. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_boreal_1_1_debug_aec86287f149040888f9846bab2928f7d}{Log\+Warning}} (std\+::string message)
+\begin{DoxyCompactList}\small\item\em Logs a warning message (yellow text). Filters the message and adds it to buffer. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_boreal_1_1_debug_ac18ba20e1abdd0de77436ca4d3c39942}{Log\+Error}} (std\+::string message)
+\begin{DoxyCompactList}\small\item\em Logs an error message (red text). Filters the message and adds it to buffer. \end{DoxyCompactList}\item 
+static size\+\_\+t \mbox{\hyperlink{class_boreal_1_1_debug_a2b3d0f87f38778fd8584b492bee874ff}{Get\+Log\+Count}} ()
+\begin{DoxyCompactList}\small\item\em Get log count returns the number of logs in the log buffer. \end{DoxyCompactList}\item 
+static size\+\_\+t \mbox{\hyperlink{class_boreal_1_1_debug_a3dc24292cb834ff1e6a96ab154bdcc2b}{Get\+Warning\+Count}} ()
+\begin{DoxyCompactList}\small\item\em Get warning count returns the number of warnings in the warning buffer. \end{DoxyCompactList}\item 
+static size\+\_\+t \mbox{\hyperlink{class_boreal_1_1_debug_a08ea42d1d791c7cf9b33c583ecd84c98}{Get\+Error\+Count}} ()
+\begin{DoxyCompactList}\small\item\em Get error count returns the number of errors in the error buffer. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_boreal_1_1_debug_a21fa201a36aa7f09816607b684859b0c}\label{class_boreal_1_1_debug_a21fa201a36aa7f09816607b684859b0c}} 
+static void \mbox{\hyperlink{class_boreal_1_1_debug_a21fa201a36aa7f09816607b684859b0c}{Print\+Logs}} ()
+\begin{DoxyCompactList}\small\item\em Prints all logs in the log buffer. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_boreal_1_1_debug_a61b9d6cf7006400719aa9c89e512bdcb}\label{class_boreal_1_1_debug_a61b9d6cf7006400719aa9c89e512bdcb}} 
+static void \mbox{\hyperlink{class_boreal_1_1_debug_a61b9d6cf7006400719aa9c89e512bdcb}{Print\+Warnings}} ()
+\begin{DoxyCompactList}\small\item\em Prints all warnings in the warning buffer. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_boreal_1_1_debug_a60571b98d7046b095ee2a529ec5ed404}\label{class_boreal_1_1_debug_a60571b98d7046b095ee2a529ec5ed404}} 
+static void \mbox{\hyperlink{class_boreal_1_1_debug_a60571b98d7046b095ee2a529ec5ed404}{Print\+Errors}} ()
+\begin{DoxyCompactList}\small\item\em Prints all errors in the error buffer. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_boreal_1_1_debug_aefe0a566a73cc5c2981c55dce77a8f03}\label{class_boreal_1_1_debug_aefe0a566a73cc5c2981c55dce77a8f03}} 
+static void \mbox{\hyperlink{class_boreal_1_1_debug_aefe0a566a73cc5c2981c55dce77a8f03}{Print\+Log\+Count}} ()
+\begin{DoxyCompactList}\small\item\em Prints number of logs in the log buffer. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_boreal_1_1_debug_a79d7fba621d5cb010450ee0740ce90b3}\label{class_boreal_1_1_debug_a79d7fba621d5cb010450ee0740ce90b3}} 
+static void \mbox{\hyperlink{class_boreal_1_1_debug_a79d7fba621d5cb010450ee0740ce90b3}{Print\+Warning\+Count}} ()
+\begin{DoxyCompactList}\small\item\em Prints number of warnings in the warning buffer. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_boreal_1_1_debug_a42f89a3a5fcd7e116450a5634019e6f0}\label{class_boreal_1_1_debug_a42f89a3a5fcd7e116450a5634019e6f0}} 
+static void \mbox{\hyperlink{class_boreal_1_1_debug_a42f89a3a5fcd7e116450a5634019e6f0}{Print\+Error\+Count}} ()
+\begin{DoxyCompactList}\small\item\em Prints number of errors in the error buffer. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_boreal_1_1_debug_aed9754f306bbef77e1c71b074972db61}{Set\+Log\+Filter}} (unsigned int log\+Filter)
+\begin{DoxyCompactList}\small\item\em Set log filter allows the user to filter the messages that will be printed on the console. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Allows user to log messages, as well as warnings and errors. Allows filtering for specific message types (log, warning, and error). 
+
+\hypertarget{class_boreal_1_1_window_Description}{}\doxysubsection{Description}\label{class_boreal_1_1_window_Description}
+The debug class is a static class that contains functions for logging messages to be used by the application. It also tracks all logs, warnings, and errors in buffers that can be printed out. It also tracks the number of logs, warnings, and errors. Finally, it allows the user to filter which logs they want to see for a given run. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_boreal_1_1_debug_a08ea42d1d791c7cf9b33c583ecd84c98}\label{class_boreal_1_1_debug_a08ea42d1d791c7cf9b33c583ecd84c98}} 
+\index{Boreal::Debug@{Boreal::Debug}!GetErrorCount@{GetErrorCount}}
+\index{GetErrorCount@{GetErrorCount}!Boreal::Debug@{Boreal::Debug}}
+\doxysubsubsection{\texorpdfstring{GetErrorCount()}{GetErrorCount()}}
+{\footnotesize\ttfamily static size\+\_\+t Boreal\+::\+Debug\+::\+Get\+Error\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Get error count returns the number of errors in the error buffer. 
+
+\begin{DoxyReturn}{Returns}
+Returns the number of error logs in the error buffer as a size\+\_\+t. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_boreal_1_1_debug_a2b3d0f87f38778fd8584b492bee874ff}\label{class_boreal_1_1_debug_a2b3d0f87f38778fd8584b492bee874ff}} 
+\index{Boreal::Debug@{Boreal::Debug}!GetLogCount@{GetLogCount}}
+\index{GetLogCount@{GetLogCount}!Boreal::Debug@{Boreal::Debug}}
+\doxysubsubsection{\texorpdfstring{GetLogCount()}{GetLogCount()}}
+{\footnotesize\ttfamily static size\+\_\+t Boreal\+::\+Debug\+::\+Get\+Log\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Get log count returns the number of logs in the log buffer. 
+
+\begin{DoxyReturn}{Returns}
+Returns the number of logs in the log buffer as a size\+\_\+t. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_boreal_1_1_debug_a3dc24292cb834ff1e6a96ab154bdcc2b}\label{class_boreal_1_1_debug_a3dc24292cb834ff1e6a96ab154bdcc2b}} 
+\index{Boreal::Debug@{Boreal::Debug}!GetWarningCount@{GetWarningCount}}
+\index{GetWarningCount@{GetWarningCount}!Boreal::Debug@{Boreal::Debug}}
+\doxysubsubsection{\texorpdfstring{GetWarningCount()}{GetWarningCount()}}
+{\footnotesize\ttfamily static size\+\_\+t Boreal\+::\+Debug\+::\+Get\+Warning\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Get warning count returns the number of warnings in the warning buffer. 
+
+\begin{DoxyReturn}{Returns}
+Returns the number of warning logs in the warning buffer as a size\+\_\+t. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_boreal_1_1_debug_a90b9ecddd6330804e8c80931e9d98548}\label{class_boreal_1_1_debug_a90b9ecddd6330804e8c80931e9d98548}} 
+\index{Boreal::Debug@{Boreal::Debug}!Log@{Log}}
+\index{Log@{Log}!Boreal::Debug@{Boreal::Debug}}
+\doxysubsubsection{\texorpdfstring{Log()}{Log()}}
+{\footnotesize\ttfamily void Boreal\+::\+Debug\+::\+Log (\begin{DoxyParamCaption}\item[{std\+::string}]{message }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Logs a regular message (white text). Filters the message and adds it to buffer. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em message} & Message to be logged to the console. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_boreal_1_1_debug_ac18ba20e1abdd0de77436ca4d3c39942}\label{class_boreal_1_1_debug_ac18ba20e1abdd0de77436ca4d3c39942}} 
+\index{Boreal::Debug@{Boreal::Debug}!LogError@{LogError}}
+\index{LogError@{LogError}!Boreal::Debug@{Boreal::Debug}}
+\doxysubsubsection{\texorpdfstring{LogError()}{LogError()}}
+{\footnotesize\ttfamily void Boreal\+::\+Debug\+::\+Log\+Error (\begin{DoxyParamCaption}\item[{std\+::string}]{message }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Logs an error message (red text). Filters the message and adds it to buffer. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em message} & Message to be logged to the console. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_boreal_1_1_debug_aec86287f149040888f9846bab2928f7d}\label{class_boreal_1_1_debug_aec86287f149040888f9846bab2928f7d}} 
+\index{Boreal::Debug@{Boreal::Debug}!LogWarning@{LogWarning}}
+\index{LogWarning@{LogWarning}!Boreal::Debug@{Boreal::Debug}}
+\doxysubsubsection{\texorpdfstring{LogWarning()}{LogWarning()}}
+{\footnotesize\ttfamily void Boreal\+::\+Debug\+::\+Log\+Warning (\begin{DoxyParamCaption}\item[{std\+::string}]{message }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Logs a warning message (yellow text). Filters the message and adds it to buffer. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em message} & Message to be logged to the console. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_boreal_1_1_debug_aed9754f306bbef77e1c71b074972db61}\label{class_boreal_1_1_debug_aed9754f306bbef77e1c71b074972db61}} 
+\index{Boreal::Debug@{Boreal::Debug}!SetLogFilter@{SetLogFilter}}
+\index{SetLogFilter@{SetLogFilter}!Boreal::Debug@{Boreal::Debug}}
+\doxysubsubsection{\texorpdfstring{SetLogFilter()}{SetLogFilter()}}
+{\footnotesize\ttfamily static void Boreal\+::\+Debug\+::\+Set\+Log\+Filter (\begin{DoxyParamCaption}\item[{unsigned int}]{log\+Filter }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Set log filter allows the user to filter the messages that will be printed on the console. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em log\+Filter} & Filter used to determine which messages will be logged. Set to BOREAL\+\_\+\+DEBUG\+\_\+\+DISABLE to disable all output. Use BOREAL\+\_\+\+DEBUG\+\_\+\+LOG to filter in regular logs, BOREAL\+\_\+\+DEBUG\+\_\+\+WARNING to filter in warning logs, and BOREAL\+\_\+\+DEBUG\+\_\+\+ERROR to filter in error logs. The filters can be combined using the $\vert$ operator, for example to filter in both warning and error logs use BOREAL\+\_\+\+DEBUG\+\_\+\+WARNING $\vert$ BOREAL\+\_\+\+DEBUG\+\_\+\+ERROR \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/Debug.\+h\item 
+src/Debug.\+cpp\end{DoxyCompactItemize}
